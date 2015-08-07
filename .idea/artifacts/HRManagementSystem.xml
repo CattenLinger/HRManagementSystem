@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="HRManagementSystem">
+    <output-path>$PROJECT_DIR$/packaged/HRManagementSystem</output-path>
+    <root id="archive" name="HRManagementSystem.jar">
+      <element id="module-output" name="HRManagementSystem" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/bin/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
