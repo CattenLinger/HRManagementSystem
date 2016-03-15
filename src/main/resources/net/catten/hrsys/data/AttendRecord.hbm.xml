@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="net.catten.hrsys.data">
+    <class name="AttendRecord" table="AttendTable">
+        <id name="id" column="No"/>
+        <property name="timePoint"/>
+        <many-to-one name="staff" class="Staff" column="StaffID"/>
+        <property name="state"/>
+        <property name="commit" column="Details"/>
+    </class>
+
+</hibernate-mapping>

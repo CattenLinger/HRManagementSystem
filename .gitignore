@@ -1,2 +1,5 @@
-bin
-mysql-connector-java-5.1.36-bin
+.idea/
+.settings/
+
+.iml
+target/

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="net.catten.hrsys.data">
+    <class name="User" table="SystemUsers">
+        <id name="id"/>
+        <property name="username"/>
+        <property name="password"/>
+        <many-to-one name="owner" class="Staff" column="Owner"/>
+        <property name="commit" column="Details"/>
+    </class>
+</hibernate-mapping>
