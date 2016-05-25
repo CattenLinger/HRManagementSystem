@@ -4,11 +4,13 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping package="net.catten.hrsys.data">
-    <class name="User" table="SystemUsers">
-        <id name="id"/>
+    <class name="User" table="system_users">
+        <id name="id" type="java.lang.Integer">
+            <generator class="native"/>
+        </id>
         <property name="username"/>
         <property name="password"/>
-        <many-to-one name="owner" class="Staff" column="Owner"/>
-        <property name="commit" column="Details"/>
+        <many-to-one name="owner" class="Staff"/>
+        <property name="commit"/>
     </class>
 </hibernate-mapping>

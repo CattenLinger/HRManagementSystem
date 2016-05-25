@@ -4,11 +4,11 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping package="net.catten.hrsys.data">
-    <class name="Staff" table="StaffInfo">
+    <class name="Staff" table="staff">
         <id name="id"/>
         <property name="name"/>
         <property name="gender"/>
-        <many-to-one name="department" class="Department" column="Department"/>
-        <property name="commit" column="Details"/>
+        <many-to-one name="department" class="Department"/>
+        <property name="commit"/>
     </class>
 </hibernate-mapping>

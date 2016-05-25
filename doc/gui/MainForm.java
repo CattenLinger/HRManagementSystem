@@ -1,5 +1,7 @@
 package net.catten.hrsys.gui;
 
+import net.catten.hrsys.gui.util.CallBackAction;
+
 import java.awt.*;
 import java.awt.event.*;
 
@@ -54,6 +56,15 @@ public class MainForm extends JFrame implements ActionListener{
 		setUpUIComponents();
 		setUpEventListener();
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		menu.setEnabled(false);
+		LoginForm loginForm = new LoginForm("登陆");
+		loginForm.setCallBackAction(new CallBackAction() {
+			@Override
+			public void doAction() {
+				mf.menu.setEnabled(true);
+			}
+		});
+		loginForm.setVisible(true);
 	}
 
 	public static MainForm getForm(){
@@ -167,24 +178,10 @@ public class MainForm extends JFrame implements ActionListener{
 			_add_show_forms(new CheckDepartmentForm(((JMenuItem)e.getSource()).getText()));
 		}else if(e.getSource() == menu_adddep){
 			//添加新部门窗口
-			_add_show_forms(new AddDepartmantForm(((JMenuItem)e.getSource()).getText()));
+			_add_show_forms(new AddDepartmentForm(((JMenuItem)e.getSource()).getText()));
 		}else if(e.getSource() == menu_removedep) {
 			//删除部门窗口
 			_add_show_forms(new RemoveDepartmentForm(((JMenuItem)e.getSource()).getText()));
-			/*
-			String predel_depinfo = JOptionPane.showInputDialog(
-					this,
-					"请输入需要删除的部门的编号或者名称",
-					"删除部门",
-					JOptionPane.WARNING_MESSAGE
-			);
-			if (!(predel_depinfo == null || predel_depinfo.isEmpty())) {
-				if (JOptionPane.showConfirmDialog(this, String.format("确定删除部门 %s 吗？", predel_depinfo), "删除部门",
-						JOptionPane.YES_NO_OPTION, JOptionPane.QUESTION_MESSAGE) == JOptionPane.OK_OPTION) {
-					System.out.print("Delete department action\n");
-				}
-			}
-			//*/
 		}else if (e.getSource() == menu_editdep){
 			//编辑部门数据窗口弹出
 			_add_show_forms(new EditDepartmentForm(menuSourceTitle));

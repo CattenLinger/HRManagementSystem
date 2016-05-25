@@ -2,433 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e8c332a-b4ca-46c2-b432-14f6f315e7f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/AttendRecord.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/Department.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/Staff.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/database/HibernateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/net/catten/hibernate.cfg.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/AttendRecord.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/Department.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/Staff.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/User.hbm.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/catten/hrsys/database/HibernateUtilTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/HRManagementSystem.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/MainClass.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/database/MySQLConnector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/database/SQLConnector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/database/SQLProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/database/SQLTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/AddAttendForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/AddDepartmantForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/AddStaffForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/AddUserForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/CheckAttendForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/CheckDepartmentForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/CheckDetailAttendForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/CheckStaffForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/CheckUserForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/EditDepartmentForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/EditStaffForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/EditUserForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/LoginForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/MainForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/RemoveDepartmentForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/RemoveStaffForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/gui/RemoveUserForm.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tools/Logger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/tools/StringTools.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/META-INF/INDEX.LIST" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/META-INF/services/java.sql.Driver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/FabricCommunicationException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/FabricConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/FabricStateResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/HashShardMapping$ReverseShardIndexSorter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/HashShardMapping.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/RangeShardMapping$RangeShardIndexSorter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/RangeShardMapping.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/Response.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/Server.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/ServerGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/ServerMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/ServerRole.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/ShardIndex.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/ShardMapping.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/ShardMappingFactory$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/ShardMappingFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/ShardTable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/ShardingType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/hibernate/FabricMultiTenantConnectionProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/jdbc/ErrorReportingExceptionInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/jdbc/FabricMySQLConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/jdbc/FabricMySQLConnectionProperties.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/jdbc/FabricMySQLConnectionProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/jdbc/FabricMySQLDataSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/jdbc/FabricMySQLDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/jdbc/JDBC4FabricMySQLConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/jdbc/JDBC4FabricMySQLConnectionProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/proto/xmlrpc/AuthenticatedXmlRpcMethodCaller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/proto/xmlrpc/DigestAuthentication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/proto/xmlrpc/InternalXmlRpcMethodCaller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/proto/xmlrpc/ResultSetParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/proto/xmlrpc/XmlRpcClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/proto/xmlrpc/XmlRpcMethodCaller.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/xmlrpc/Client.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/xmlrpc/base/Array.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/xmlrpc/base/Data.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/xmlrpc/base/Fault.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/xmlrpc/base/Member.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/xmlrpc/base/MethodCall.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/xmlrpc/base/MethodResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/xmlrpc/base/Param.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/xmlrpc/base/Params.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/xmlrpc/base/ResponseParser.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/xmlrpc/base/Struct.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/xmlrpc/base/Value.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/fabric/xmlrpc/exceptions/MySQLFabricException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/AbandonedConnectionCleanupThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/AssertionFailedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/AuthenticationPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/BalanceStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/BestResponseTimeBalanceStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/Blob.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/BlobFromLocator$LocatorInputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/BlobFromLocator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/Buffer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/BufferRow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ByteArrayRow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/CacheAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/CacheAdapterFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/CachedResultSetMetaData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/CallableStatement$CallableStatementParam.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/CallableStatement$CallableStatementParamInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/CallableStatement$CallableStatementParamInfoJDBC3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/CallableStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/CharsetMapping.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/Charsets.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/Clob.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/Collation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/CommunicationsException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/CompressedInputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/Connection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionFeatureNotAvailableException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionGroupManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionImpl$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionImpl$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionImpl$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionImpl$12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionImpl$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionImpl$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionImpl$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionImpl$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionImpl$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionImpl$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionImpl$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionImpl$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionImpl$CompoundCacheKey.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionImpl$ExceptionInterceptorChain.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionLifecycleInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionProperties.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionPropertiesImpl$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionPropertiesImpl$BooleanConnectionProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionPropertiesImpl$ConnectionProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionPropertiesImpl$IntegerConnectionProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionPropertiesImpl$LongConnectionProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionPropertiesImpl$MemorySizeConnectionProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionPropertiesImpl$StringConnectionProperty.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionPropertiesImpl$XmlMap.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionPropertiesImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ConnectionPropertiesTransform.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/Constants.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$10.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$11.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$ComparableWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$IndexMetaDataKey.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$IteratorWithCleanup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$LocalAndReferencedColumns.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$ProcedureType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$ResultSetIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$SingleStringIterator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$TableMetaDataKey.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$TableType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData$TypeDescriptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaDataUsingInfoSchema$JDBC4FunctionConstant.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DatabaseMetaDataUsingInfoSchema.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/DocsConnectionPropsHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/Driver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/EscapeProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/EscapeProcessorResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/EscapeTokenizer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ExceptionInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ExportControlled$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ExportControlled$StandardSSLSocketFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ExportControlled.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/Extension.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/FailoverConnectionProxy$FailoverJdbcInterfaceProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/FailoverConnectionProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/Field.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/IterateBlock.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4CallableStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4ClientInfoProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4ClientInfoProviderSP.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4CommentClientInfoProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4Connection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4DatabaseMetaData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4DatabaseMetaDataUsingInfoSchema$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4DatabaseMetaDataUsingInfoSchema.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4LoadBalancedMySQLConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4MultiHostMySQLConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4MySQLConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4MysqlSQLXML$SimpleSaxToReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4MysqlSQLXML.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4NClob.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4PreparedStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4PreparedStatementHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4ResultSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4ServerPreparedStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/JDBC4UpdatableResultSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/LicenseConfiguration.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/LoadBalanceExceptionChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/LoadBalancedAutoCommitInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/LoadBalancedConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/LoadBalancedMySQLConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/LoadBalancingConnectionProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/LocalizedErrorMessages.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/Messages.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/MiniAdmin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/MultiHostConnectionProxy$JdbcInterfaceProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/MultiHostConnectionProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/MultiHostMySQLConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/MySQLConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/MysqlCharset.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/MysqlDataTruncation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/MysqlDefs.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/MysqlErrorNumbers.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/MysqlIO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/MysqlParameterMetadata.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/MysqlSavepoint.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/NamedPipeSocketFactory$NamedPipeSocket.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/NamedPipeSocketFactory$RandomAccessFileInputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/NamedPipeSocketFactory$RandomAccessFileOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/NamedPipeSocketFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/NdbLoadBalanceExceptionChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/NetworkResources.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/NoSubInterceptorWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/NonRegisteringDriver$ConnectionPhantomReference.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/NonRegisteringDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/NonRegisteringReplicationDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/NotImplemented.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/NotUpdatable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/OperationNotSupportedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/OutputStreamWatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/PacketTooBigException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ParameterBindings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/PerConnectionLRUFactory$PerConnectionLRU.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/PerConnectionLRUFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/PerVmServerConfigCacheFactory$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/PerVmServerConfigCacheFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/PingTarget.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/PreparedStatement$AppendingBatchVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/PreparedStatement$BatchParams.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/PreparedStatement$BatchVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/PreparedStatement$EmulatedPreparedStatementBindings.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/PreparedStatement$EndPoint.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/PreparedStatement$ParseInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/PreparedStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ProfilerEventHandlerFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/RandomBalanceStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ReflectiveStatementInterceptorAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ReplicationConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ReplicationConnectionGroup.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ReplicationConnectionGroupManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ReplicationDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ResultSetImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ResultSetInternalMethods.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ResultSetMetaData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ResultSetRow.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/RowData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/RowDataCursor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/RowDataDynamic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/RowDataStatic.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/SQLError.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/Security.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/SequentialBalanceStrategy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ServerPreparedStatement$BatchedBindValues.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ServerPreparedStatement$BindValue.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/ServerPreparedStatement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/SingleByteCharsetConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/SocketFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/SocketMetadata.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/SocksProxySocketFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/StandardLoadBalanceExceptionChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/StandardSocketFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/Statement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/StatementImpl$CancelTask$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/StatementImpl$CancelTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/StatementImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/StatementInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/StatementInterceptorV2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/StreamingNotifiable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/StringUtils$SearchMode.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/StringUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/TimeUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/TimeZoneMapping.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/UpdatableResultSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/Util$RandStructcture.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/V1toV2StatementInterceptorAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/WatchableOutputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/WatchableWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/WriterWatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/authentication/MysqlClearPasswordPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/authentication/MysqlNativePasswordPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/authentication/MysqlOldPasswordPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/authentication/Sha256PasswordPlugin.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/configs/3-0-Compat.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/configs/5-0-Compat.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/configs/clusterBase.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/configs/coldFusion.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/configs/fullDebug.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/configs/maxPerformance.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/configs/solarisMaxPerformance.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/DeadlockTimeoutRollbackMarker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/MySQLDataException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/MySQLIntegrityConstraintViolationException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/MySQLInvalidAuthorizationSpecException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/MySQLNonTransientConnectionException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/MySQLNonTransientException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/MySQLQueryInterruptedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/MySQLStatementCancelledException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/MySQLSyntaxErrorException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/MySQLTimeoutException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/MySQLTransactionRollbackException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/MySQLTransientConnectionException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/MySQLTransientException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/jdbc4/CommunicationsException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/jdbc4/MySQLDataException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/jdbc4/MySQLIntegrityConstraintViolationException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/jdbc4/MySQLInvalidAuthorizationSpecException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/jdbc4/MySQLNonTransientConnectionException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/jdbc4/MySQLNonTransientException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/jdbc4/MySQLQueryInterruptedException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/jdbc4/MySQLSyntaxErrorException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/jdbc4/MySQLTimeoutException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/jdbc4/MySQLTransactionRollbackException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/jdbc4/MySQLTransientConnectionException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/exceptions/jdbc4/MySQLTransientException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/integration/c3p0/MysqlConnectionTester.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/integration/jboss/ExtendedMysqlExceptionSorter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/integration/jboss/MysqlValidConnectionChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/interceptors/ResultSetScannerInterceptor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/interceptors/ResultSetScannerInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/interceptors/ServerStatusDiffInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/interceptors/SessionAssociationInterceptor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/CallableStatementWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/ConnectionWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/JDBC4CallableStatementWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/JDBC4ConnectionWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/JDBC4MysqlPooledConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/JDBC4MysqlXAConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/JDBC4PreparedStatementWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/JDBC4StatementWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/JDBC4SuspendableXAConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/MysqlConnectionPoolDataSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/MysqlDataSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/MysqlDataSourceFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/MysqlPooledConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/MysqlXAConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/MysqlXADataSource.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/MysqlXAException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/MysqlXid.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/PreparedStatementWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/StatementWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/SuspendableXAConnection.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/WrapperBase$ConnectionErrorFiringInvocationHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jdbc2/optional/WrapperBase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jmx/LoadBalanceConnectionGroupManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jmx/LoadBalanceConnectionGroupManagerMBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jmx/ReplicationGroupManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/jmx/ReplicationGroupManagerMBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/log/Jdk14Logger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/log/Log.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/log/LogFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/log/LogUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/log/NullLogger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/log/Slf4JLogger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/log/StandardLogger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/profiler/LoggingProfilerEventHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/profiler/ProfilerEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/profiler/ProfilerEventHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/util/Base64Decoder$IntWrapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/util/Base64Decoder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/util/BaseBugReport.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/util/ErrorMappingsDocGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/util/LRUCache.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/util/PropertiesDocGenerator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/util/ReadAheadInputStream.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/util/ResultSetUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/util/ServerController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/util/TimezoneDump.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/com/mysql/jdbc/util/VersionFSHierarchyMaker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mysql-connector-java-5.1.36-bin/org/gjt/mm/mysql/Driver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packaged/HRManagementSystem/HRManagementSystem.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sqljdbc4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/MainClass.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/database/MySQLConnector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/database/SQLConnector.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/database/SQLProxy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/database/SQLTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/AddAttendForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/AddDepartmantForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/AddStaffForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/AddUserForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/CheckAttendForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/CheckDepartmentForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/CheckDetailAttendForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/CheckStaffForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/CheckUserForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/EditDepartmentForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/EditStaffForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/EditUserForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/LoginForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/MainForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/RemoveDepartmentForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/RemoveStaffForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/gui/RemoveUserForm.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tools/Logger.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/tools/StringTools.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/gui/AddAttendForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/gui/LoginForm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/gui/util/CallBackAction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/util/AttendStatus.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/applicationContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/catten/hrsys/data/UserTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/net/catten/hrsys/program/MainClassTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.36-bin.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/database/HibernateUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/AddAttendForm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/LoginForm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/tools/Logger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/net/catten/hrsys/database/HibernateUtilTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/AddDepartmantForm.java" afterPath="$PROJECT_DIR$/doc/gui/AddDepartmentForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/AddStaffForm.java" afterPath="$PROJECT_DIR$/doc/gui/AddStaffForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/AddUserForm.java" afterPath="$PROJECT_DIR$/doc/gui/AddUserForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/CheckAttendForm.java" afterPath="$PROJECT_DIR$/doc/gui/CheckAttendForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/CheckDepartmentForm.java" afterPath="$PROJECT_DIR$/doc/gui/CheckDepartmentForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/CheckDetailAttendForm.java" afterPath="$PROJECT_DIR$/doc/gui/CheckDetailAttendForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/CheckStaffForm.java" afterPath="$PROJECT_DIR$/doc/gui/CheckStaffForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/CheckUserForm.java" afterPath="$PROJECT_DIR$/doc/gui/CheckUserForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/EditDepartmentForm.java" afterPath="$PROJECT_DIR$/doc/gui/EditDepartmentForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/EditStaffForm.java" afterPath="$PROJECT_DIR$/doc/gui/EditStaffForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/EditUserForm.java" afterPath="$PROJECT_DIR$/doc/gui/EditUserForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/MainForm.java" afterPath="$PROJECT_DIR$/doc/gui/MainForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/RemoveDepartmentForm.java" afterPath="$PROJECT_DIR$/doc/gui/RemoveDepartmentForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/RemoveStaffForm.java" afterPath="$PROJECT_DIR$/doc/gui/RemoveStaffForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/RemoveUserForm.java" afterPath="$PROJECT_DIR$/doc/gui/RemoveUserForm.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/tools/StringTools.java" afterPath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/util/Strings.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/resources/net/catten/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/hibernate.cfg.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HRManagementSystem.iml" afterPath="$PROJECT_DIR$/HRManagementSystem.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/Program/MainClass.java" afterPath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/Program/MainClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/AttendRecord.java" afterPath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/AttendRecord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/User.java" afterPath="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/AttendRecord.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/AttendRecord.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/Department.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/Department.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/Staff.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/Staff.hbm.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/User.hbm.xml" afterPath="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/User.hbm.xml" />
     </list>
     <ignored path="HRManagementSystem.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -446,56 +68,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Department.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/Department.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AttendRecord.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/AttendRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-              <folding>
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#929#930#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/User.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HibernateUtilTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/net/catten/hrsys/database/HibernateUtilTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.096463025">
-              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            <state vertical-scroll-proportion="-15.208333">
+              <caret line="92" column="77" selection-start-line="92" selection-start-column="77" selection-end-line="92" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -505,10 +82,99 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/net/catten/hrsys/data/UserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.65217394">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainClassTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/net/catten/hrsys/program/MainClassTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/program/MainClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.958333">
+              <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/User.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttendRecord.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/AttendRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
               <folding>
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#333#334#0" expanded="false" />
+                <element signature="e#358#359#0" expanded="false" />
+                <element signature="e#395#396#0" expanded="false" />
+                <element signature="e#423#424#0" expanded="false" />
+                <element signature="e#457#458#0" expanded="false" />
+                <element signature="e#489#490#0" expanded="false" />
+                <element signature="e#537#538#0" expanded="false" />
+                <element signature="e#579#580#0" expanded="false" />
+                <element signature="e#610#611#0" expanded="false" />
+                <element signature="e#638#639#0" expanded="false" />
+                <element signature="e#679#680#0" expanded="false" />
+                <element signature="e#713#714#0" expanded="false" />
+                <element signature="e#751#752#0" expanded="false" />
+                <element signature="e#779#780#0" expanded="false" />
+                <element signature="e#827#828#0" expanded="false" />
+                <element signature="e#861#862#0" expanded="false" />
+                <element signature="e#894#895#0" expanded="false" />
+                <element signature="e#923#924#0" expanded="false" />
+                <element signature="e#967#968#0" expanded="false" />
+                <element signature="e#1003#1004#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -517,41 +183,8 @@
       <file leaf-file-name="AttendRecord.hbm.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/AttendRecord.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625">
-              <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Staff.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/Staff.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
-              <folding>
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Department.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/Department.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Staff.hbm.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/Staff.hbm.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -562,6 +195,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
@@ -578,14 +212,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/CheckUserForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/Department.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/Staff.hdm.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/net.catten.hisys/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/MainClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/Program/MainClass.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/target/classes/net/catten/hrsys/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/database/HibernateUtil.java" />
@@ -598,16 +229,46 @@
         <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/Staff.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/User.hbm.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/net/catten/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/Staff.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/AttendRecord.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/AttendRecord.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/Staff.hbm.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/User.hbm.xml" />
         <option value="$PROJECT_DIR$/src/test/java/net/catten/hrsys/database/HibernateUtilTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/AddDepartmantForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/ui/LoginForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/ui/LoginForm.form" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/MainForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/util/CallBackAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/LoginForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/MainForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/AddDepartmentForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/AddAttendForm.java" />
+        <option value="$PROJECT_DIR$/src/test/java/net/catten/hrsys/gui/MainFormTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/EditUserForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/Program/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/CheckDetailAttendForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/AddStaffForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/program/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/util/AttendStatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/tools/StringTools.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/tools/Strings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/util/Strings.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/Department.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/Staff.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/User.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/User.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/AttendRecord.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/AttendRecord.java" />
+        <option value="$PROJECT_DIR$/src/test/java/net/catten/hrsys/data/UserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/net/catten/hrsys/program/MainClassTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -631,6 +292,24 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="HRManagementSystem" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="HRManagementSystem" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
         </PATH_ELEMENT>
       </PATH>
       <PATH>
@@ -678,7 +357,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -723,7 +401,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="hrsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HRManagementSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HRManagementSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hrsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -749,7 +461,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="catten" />
+              <option name="myItemId" value="hrsys" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -775,7 +487,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="catten" />
+              <option name="myItemId" value="hrsys" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -808,6 +520,40 @@
               <option name="myItemId" value="hrsys" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HRManagementSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HRManagementSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hrsys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="program" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -835,7 +581,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Program" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -849,19 +595,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hrsys" />
+              <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -869,139 +603,70 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HRManagementSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HRManagementSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hrsys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HRManagementSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HRManagementSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hrsys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HRManagementSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HRManagementSystem" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mysql-connector-java-5.1.36-bin.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="project.structure.last.edited" value="Facets" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/net/catten/hrsys" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/catten/Git/HRManagementSystem/src/test/java/net/catten/hrsys/database/HibernateUtilTest.java&#10;hi&#9;FILE&#9;file:///Users/catten/Git/HRManagementSystem/src/test/java/net/catten/hrsys/database/HibernateUtilTest.java&#10;depa&#9;FILE&#9;file:///Users/catten/Git/HRManagementSystem/src/main/java/net/catten/hrsys/data/Department.java&#10;h&#9;FILE&#9;file:///Users/catten/Git/HRManagementSystem/src/test/java/net/catten/hrsys/database/HibernateUtilTest.java&#10;po&#9;FILE&#9;file:///Users/catten/Git/HRManagementSystem/pom.xml&#10;hib&#9;FILE&#9;file:///Users/catten/Git/HRManagementSystem/src/main/resources/net/catten/hibernate.cfg.xml" />
+    <property name="last.edited.regexp" value="hur003-_78ujdusoa" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Loom" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="net.catten.hrsys.program" />
+      <recent name="net.catten.hrsys.data" />
+      <recent name="net.catten.hrsys.gui" />
       <recent name="net.catten.hrsys.database" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/net/catten/hrsys" />
+      <recent name="$PROJECT_DIR$/doc" />
+      <recent name="$PROJECT_DIR$/src/main/java/net/catten/hrsys/ui" />
+      <recent name="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data" />
+      <recent name="$PROJECT_DIR$/src/main/resources/net/catten" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="net.catten.hrsys.database" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/target/classes/net/catten/hrsys/data" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data" />
-      <recent name="$PROJECT_DIR$/src/main/resources/net/catten" />
-      <recent name="$PROJECT_DIR$/src/main/resources/" />
-      <recent name="$PROJECT_DIR$/src/main/resources/net/catten/hrsys" />
-      <recent name="$PROJECT_DIR$/src/main/java/net/catten/hrsys/Program" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/target/classes/net/catten/hrsys/data" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HibernateUtilTest">
-    <configuration default="false" name="HibernateUtilTest.testGetSessionFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserTest.InsertUserTest">
+    <configuration default="false" name="MainFormTest.TestMainForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="net.catten.hrsys.database.*" />
+          <option name="PATTERN" value="net.catten.hrsys.gui.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="HRManagementSystem" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.catten.hrsys.database" />
-      <option name="MAIN_CLASS_NAME" value="net.catten.hrsys.database.HibernateUtilTest" />
-      <option name="METHOD_NAME" value="testGetSessionFactory" />
+      <option name="PACKAGE_NAME" value="net.catten.hrsys.gui" />
+      <option name="MAIN_CLASS_NAME" value="net.catten.hrsys.gui.MainFormTest" />
+      <option name="METHOD_NAME" value="TestMainForm" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1015,46 +680,98 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="HibernateUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="UserTest.InsertUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="net.catten.hrsys.database.*" />
+          <option name="PATTERN" value="net.catten.hrsys.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="HRManagementSystem" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.catten.hrsys.database" />
-      <option name="MAIN_CLASS_NAME" value="net.catten.hrsys.database.HibernateUtilTest" />
+      <option name="PACKAGE_NAME" value="net.catten.hrsys.data" />
+      <option name="MAIN_CLASS_NAME" value="net.catten.hrsys.data.UserTest" />
+      <option name="METHOD_NAME" value="InsertUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserTest.setSessionFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.catten.hrsys.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="HRManagementSystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.catten.hrsys.data" />
+      <option name="MAIN_CLASS_NAME" value="net.catten.hrsys.data.UserTest" />
+      <option name="METHOD_NAME" value="setSessionFactory" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MainClassTest.JDBCDriverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.catten.hrsys.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="HRManagementSystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.catten.hrsys.program" />
+      <option name="MAIN_CLASS_NAME" value="net.catten.hrsys.program.MainClassTest" />
+      <option name="METHOD_NAME" value="JDBCDriverTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="MainClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.catten.hrsys.program.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="HRManagementSystem" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="net.catten.hrsys.program" />
+      <option name="MAIN_CLASS_NAME" value="net.catten.hrsys.program.MainClassTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="HibernateUtilTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="net.catten.hrsys.database.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="HRManagementSystem" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="net.catten.hrsys.database" />
-      <option name="MAIN_CLASS_NAME" value="net.catten.hrsys.database.HibernateUtilTest" />
-      <option name="METHOD_NAME" value="testQuery" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1071,65 +788,6 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -1155,6 +813,133 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -1169,6 +954,16 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -1234,6 +1029,9 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -1287,6 +1085,12 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -1345,16 +1149,40 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateUtilTest.testGetSessionFactory" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HibernateUtilTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HibernateUtilTest.testQuery" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MainFormTest.TestMainForm" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UserTest.InsertUserTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UserTest.setSessionFactory" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MainClassTest.JDBCDriverTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MainClassTest" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateUtilTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HibernateUtilTest.testQuery" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HibernateUtilTest.testGetSessionFactory" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.UserTest.InsertUserTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MainClassTest.JDBCDriverTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MainClassTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UserTest.setSessionFactory" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MainFormTest.TestMainForm" />
       </list>
     </recent_temporary>
   </component>
@@ -1368,57 +1196,77 @@
       <created>1458028249524</created>
       <option name="number" value="Default" />
       <updated>1458028249524</updated>
+      <workItem from="1464081352241" duration="496000" />
+      <workItem from="1464081893804" duration="9458000" />
+      <workItem from="1464146113554" duration="793000" />
+      <workItem from="1464148955899" duration="4181000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HibernateUtilTest - 2016.03.15 at 21h 10m 44s.xml">
-      <configuration name="HibernateUtilTest" configurationId="JUnit" />
+    <history-entry file="MainClassTest_JDBCDriverTest - 2016.05.25 at 22h 03m 02s.xml">
+      <configuration name="MainClassTest.JDBCDriverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateUtilTest - 2016.03.15 at 21h 20m 48s.xml">
-      <configuration name="HibernateUtilTest" configurationId="JUnit" />
+    <history-entry file="MainClassTest_JDBCDriverTest - 2016.05.25 at 22h 04m 38s.xml">
+      <configuration name="MainClassTest.JDBCDriverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateUtilTest - 2016.03.15 at 21h 22m 17s.xml">
-      <configuration name="HibernateUtilTest" configurationId="JUnit" />
+    <history-entry file="MainClassTest_JDBCDriverTest - 2016.05.25 at 22h 05m 24s.xml">
+      <configuration name="MainClassTest.JDBCDriverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateUtilTest - 2016.03.15 at 21h 22m 39s.xml">
-      <configuration name="HibernateUtilTest" configurationId="JUnit" />
+    <history-entry file="MainClassTest_JDBCDriverTest - 2016.05.25 at 22h 23m 09s.xml">
+      <configuration name="MainClassTest.JDBCDriverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateUtilTest - 2016.03.15 at 21h 23m 10s.xml">
-      <configuration name="HibernateUtilTest" configurationId="JUnit" />
+    <history-entry file="UserTest_InsertUserTest - 2016.05.25 at 22h 02m 52s.xml">
+      <configuration name="UserTest.InsertUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateUtilTest - 2016.03.15 at 21h 27m 25s.xml">
-      <configuration name="HibernateUtilTest" configurationId="JUnit" />
+    <history-entry file="UserTest_InsertUserTest - 2016.05.25 at 22h 03m 20s.xml">
+      <configuration name="UserTest.InsertUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateUtilTest - 2016.03.15 at 21h 27m 41s.xml">
-      <configuration name="HibernateUtilTest" configurationId="JUnit" />
+    <history-entry file="UserTest_InsertUserTest - 2016.05.25 at 22h 03m 57s.xml">
+      <configuration name="UserTest.InsertUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateUtilTest - 2016.03.15 at 21h 27m 57s.xml">
-      <configuration name="HibernateUtilTest" configurationId="JUnit" />
+    <history-entry file="UserTest_InsertUserTest - 2016.05.25 at 22h 04m 33s.xml">
+      <configuration name="UserTest.InsertUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateUtilTest - 2016.03.15 at 21h 29m 47s.xml">
-      <configuration name="HibernateUtilTest" configurationId="JUnit" />
+    <history-entry file="UserTest_InsertUserTest - 2016.05.25 at 22h 06m 45s.xml">
+      <configuration name="UserTest.InsertUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateUtilTest - 2016.03.15 at 21h 48m 52s.xml">
-      <configuration name="HibernateUtilTest" configurationId="JUnit" />
+    <history-entry file="UserTest_InsertUserTest - 2016.05.25 at 22h 23m 25s.xml">
+      <configuration name="UserTest.InsertUserTest" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14928000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19861555" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27029702" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20500532" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33465347" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21352503" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21938232" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1427,8 +1275,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1467,7 +1315,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1475,7 +1325,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/AttendRecord.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1483,125 +1333,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/tools/Logger.java">
+    <entry file="file://$PROJECT_DIR$/doc/gui/AddStaffForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/LoginForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/MainForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/EditUserForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/AddAttendForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/AddDepartmentForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/program/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/CheckDetailAttendForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/AddStaffForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/tools/StringTools.java">
+    <entry file="file://$PROJECT_DIR$/doc/gui/util/CallBackAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/MainForm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/Department.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/AddUserForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/AddStaffForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/EditUserForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/CheckUserForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.1.0.Final/hibernate-core-5.1.0.Final.jar!/org/hibernate/hibernate-mapping-3.0.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9258872">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.1.0.Final/hibernate-core-5.1.0.Final.jar!/org/hibernate/hibernate-mapping-4.0.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.454071">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/database/HibernateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.291667">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.791666">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/AddAttendForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/Program/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/gui/LoginForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1610,9 +1415,44 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#358#359#0" expanded="false" />
+            <element signature="e#395#396#0" expanded="false" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#457#458#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
+            <element signature="e#537#538#0" expanded="false" />
+            <element signature="e#579#580#0" expanded="false" />
+            <element signature="e#610#611#0" expanded="false" />
+            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#679#680#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#751#752#0" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
+            <element signature="e#827#828#0" expanded="false" />
+            <element signature="e#861#862#0" expanded="false" />
+            <element signature="e#894#895#0" expanded="false" />
+            <element signature="e#923#924#0" expanded="false" />
+            <element signature="e#967#968#0" expanded="false" />
+            <element signature="e#1003#1004#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1620,25 +1460,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/AttendRecord.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625">
-          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
           <folding />
         </state>
       </provider>
@@ -1647,16 +1475,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
-          <folding>
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/Department.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           <folding />
         </state>
@@ -1664,34 +1488,262 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/Staff.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/User.hbm.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/catten/hrsys/database/HibernateUtilTest.java">
+    <entry file="file://$PROJECT_DIR$/doc/gui/AddUserForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/CheckUserForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.1.0.Final/hibernate-core-5.1.0.Final.jar!/org/hibernate/hibernate-mapping-3.0.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9258872">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.1.0.Final/hibernate-core-5.1.0.Final.jar!/org/hibernate/hibernate-mapping-4.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.454071">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gitignore_global">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.030487806">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.096463025">
+        <state vertical-scroll-proportion="0.07042254">
           <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/LoginForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/AddDepartmentForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/EditUserForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/CheckDetailAttendForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/AddStaffForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/MainForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/util/CallBackAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/gui/AddAttendForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/util/AttendStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/util/Strings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/Department.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/Staff.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.875">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/AttendRecord.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/AttendRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#333#334#0" expanded="false" />
+            <element signature="e#358#359#0" expanded="false" />
+            <element signature="e#395#396#0" expanded="false" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#457#458#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
+            <element signature="e#537#538#0" expanded="false" />
+            <element signature="e#579#580#0" expanded="false" />
+            <element signature="e#610#611#0" expanded="false" />
+            <element signature="e#638#639#0" expanded="false" />
+            <element signature="e#679#680#0" expanded="false" />
+            <element signature="e#713#714#0" expanded="false" />
+            <element signature="e#751#752#0" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
+            <element signature="e#827#828#0" expanded="false" />
+            <element signature="e#861#862#0" expanded="false" />
+            <element signature="e#894#895#0" expanded="false" />
+            <element signature="e#923#924#0" expanded="false" />
+            <element signature="e#967#968#0" expanded="false" />
+            <element signature="e#1003#1004#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/data/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/program/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/net/catten/hrsys/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.958333">
+          <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/net/catten/hrsys/data/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.208333">
+          <caret line="92" column="77" selection-start-line="92" selection-start-column="77" selection-end-line="92" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/catten/hrsys/program/MainClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/net/catten/hrsys/data/UserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65217394">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1713,7 +1765,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring (HRManagementSystem)|Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1725,6 +1777,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>bootstrap</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

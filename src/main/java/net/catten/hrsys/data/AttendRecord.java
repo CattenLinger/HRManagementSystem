@@ -1,22 +1,24 @@
 package net.catten.hrsys.data;
 
+import net.catten.hrsys.util.AttendStatus;
+
 import java.util.Date;
 
 /**
  * Created by catten on 16/3/15.
  */
 public class AttendRecord {
-    private int id;
+    private Integer id;
     private Date timePoint;
     private Staff staff;
-    private String state;
+    private AttendStatus state;
     private String commit;
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -36,11 +38,11 @@ public class AttendRecord {
         this.staff = staff;
     }
 
-    public String getState() {
+    public AttendStatus getState() {
         return state;
     }
 
-    public void setState(String state) {
+    public void setState(AttendStatus state) {
         this.state = state;
     }
 

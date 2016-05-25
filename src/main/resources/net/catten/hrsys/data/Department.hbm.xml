@@ -4,9 +4,9 @@
         "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping package="net.catten.hrsys.data">
-    <class name="Department" table="DepartmentInfo">
+    <class name="Department" table="department">
         <id name="id"/>
         <property name="name"/>
-        <property name="commit" column="Details"/>
+        <property name="commit"/>
     </class>
 </hibernate-mapping>

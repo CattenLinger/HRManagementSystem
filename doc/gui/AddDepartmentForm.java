@@ -1,7 +1,9 @@
 package net.catten.hrsys.gui;
 
-import net.catten.hrsys.database.SQLProxy;
+import net.catten.hrsys.data.Department;
+import net.catten.hrsys.database.HibernateUtil;
 import net.catten.hrsys.tools.StringTools;
+import org.hibernate.classic.Session;
 
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
@@ -12,16 +14,16 @@ import java.awt.event.ActionListener;
 /**
  * Created by TEACH on 15-7-1.
  */
-public class AddDepartmantForm extends JInternalFrame implements ActionListener {
+public class AddDepartmentForm extends JInternalFrame{
 
     JTextField t_code,t_name;
     JTextArea t_infos;
 
     JButton btn_autofillcode,btn_submit;
 
-    SQLProxy sqlProxy = SQLProxy.getProxy();
+    Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 
-    public AddDepartmantForm(String title){
+    public AddDepartmentForm(String title){
         super(title, false, true, false,true);//title,resizeable,closeabel,maxminizable
         setSize(300, 300);
         setDefaultCloseOperation(JInternalFrame.DISPOSE_ON_CLOSE);
@@ -29,6 +31,7 @@ public class AddDepartmantForm extends JInternalFrame implements ActionListener 
         setUpEventListener();
         setResizable(false);
     }
+
     private void setUpUIComponents() {
         setLayout(new GridBagLayout());
         GridBagConstraints gbc = new GridBagConstraints();
@@ -74,38 +77,30 @@ public class AddDepartmantForm extends JInternalFrame implements ActionListener 
     }
 
     private void setUpEventListener() {
-        btn_submit.addActionListener(this);
-        btn_autofillcode.addActionListener(this);
+
+        btn_submit.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                insertDepartment();
+            }
+        });
+
+        btn_autofillcode.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                t_code.setText(StringTools.RandomNumber());
+            }
+        });
     }
 
-    @Override
-    public void actionPerformed(ActionEvent e) {
-
-        if(e.getSource() == btn_submit){
-            if(sqlProxy.proxyExcute(String.format(
-                            "insert into DepartmentInfo values(%s,'%s','%s')",
-                            t_code.getText(),
-                            t_name.getText(),
-                            t_infos.getText())
-            ) == 0){
-                /*
-                SQLConnector sqlConnector = MySQLConnector.getObject();
-                try {
-                    ResultSet resultSet = sqlConnector.getStatement().executeQuery("select * from DepartmentInfo");
-                    while (resultSet.next()){
-                        t_infos.setText(t_infos.getText() + String.format("%d %s",resultSet.getInt("ID"),resultSet.getString("Name")));
-                    }
-                } catch (SQLException e1) {
-                    e1.printStackTrace();
-                }//*/
-                //JOptionPane.showMessageDialog(this,"添加部门成功",this.getTitle(),JOptionPane.INFORMATION_MESSAGE);
-                JOptionPane.showMessageDialog(this,"添加成功",getTitle(),JOptionPane.INFORMATION_MESSAGE);
-                this.dispose();
-            }else{
-                JOptionPane.showMessageDialog(this,"添加部门失败",this.getTitle(),JOptionPane.WARNING_MESSAGE);
-            }
-        }else if(e.getSource() == btn_autofillcode){
-            t_code.setText(StringTools.RandomNumber());
-        }//*/
+    private void insertDepartment(){
+        Department department = new Department();
+        department.setCommit(t_infos.getText());
+        department.setId(Integer.parseInt(t_code.getText()));
+        department.setName(t_name.getText());
+        if(session.save(department) != null){
+            JOptionPane.showMessageDialog(this,"添加成功",getTitle(),JOptionPane.INFORMATION_MESSAGE);
+            this.dispose();
+        }else{
+            JOptionPane.showMessageDialog(this,"添加部门失败",this.getTitle(),JOptionPane.WARNING_MESSAGE);
+        }
     }
 }

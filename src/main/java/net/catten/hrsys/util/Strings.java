@@ -1,4 +1,4 @@
-package net.catten.hrsys.tools;
+package net.catten.hrsys.util;
 
 import java.util.Date;
 import java.util.Random;
@@ -6,8 +6,9 @@ import java.util.Random;
 /**
  * Created by TEACH on 15-7-2.
  */
-public class StringTools {
+public class Strings {
     private static Random random = new Random(new Date().getTime());
+
     public static boolean isNumeric(String str){
         for (int i = 0; i < str.length(); i++){
             //System.out.println(str.charAt(i));

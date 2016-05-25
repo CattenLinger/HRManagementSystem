@@ -1,6 +1,5 @@
 package net.catten.hrsys.gui;
 
-import net.catten.hrsys.database.SQLProxy;
 import net.catten.hrsys.tools.StringTools;
 
 import javax.swing.*;
@@ -22,23 +21,14 @@ public class CheckDetailAttendForm extends JInternalFrame implements ActionListe
 
     private String staffid = "";
 
-    SQLProxy sqlProxy = SQLProxy.getProxy();
+    //SQLProxy sqlProxy = SQLProxy.getProxy();
 
-    String[] columeName = new String[]{
+    String[] columnName = new String[]{
             "流水号","姓名","考勤状况","考勤时间","备注"
     };
 
     String[] statelist = new String[]{"a","o","i","e"};
     String[] statelistmask = new String[]{"在岗","出差","病假","事假"};
-
-/*
-    public static CheckDetailAttendForm getForm(){
-        if(daf == null){
-            daf = new CheckDetailAttendForm("考勤详单");
-        }
-        return daf;
-    }
-//*/
 
     public CheckDetailAttendForm(String title){
         super(title,true,true,false,true);
@@ -94,7 +84,7 @@ public class CheckDetailAttendForm extends JInternalFrame implements ActionListe
         gbc.gridy++;
         add(new JLabel("查询结果"),gbc);
 
-        table_result = new JTable(new DefaultTableModel(null,columeName));
+        table_result = new JTable(new DefaultTableModel(null, columnName));
         gbc.gridy++;
         gbc.weighty = 0.5;
         add(new JScrollPane(table_result),gbc);
@@ -117,17 +107,17 @@ public class CheckDetailAttendForm extends JInternalFrame implements ActionListe
             ArrayList arrayList;
             Object[] datas;
             StringBuilder stringBuilder = new StringBuilder(
-                    String.format("select %s from attendtable inner join staffinfo on staffinfo.id = attendtable.staffid where",
+                    String.format("select %s from attendtable inner join staffinfo on staffinfo.id = attendtable.staffIF where",
                             "attendtable.no,staffinfo.name as name,attendtable.state,attendtable.timepoint,ifnull(attendtable.details,'')"
                     )
             );
             if(StringTools.isNumeric(searchIDName)){
-                stringBuilder.append(String.format(" staffid = %s",searchIDName));
+                stringBuilder.append(String.format(" staffIF = %s",searchIDName));
             }else{
                 stringBuilder.append(String.format(" name like '%%%s%%'",searchIDName));
             }
             if(!staffid.equals("")){
-                stringBuilder.append(String.format(" and staffid = '%s'",staffid));
+                stringBuilder.append(String.format(" and staffIF = '%s'",staffid));
             }
             if(!searchTime.equals("")){
                 stringBuilder.append(String.format(" and timepoint = '%s'",searchTime));

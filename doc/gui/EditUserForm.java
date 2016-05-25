@@ -1,6 +1,5 @@
 package net.catten.hrsys.gui;
 
-import net.catten.hrsys.database.SQLProxy;
 import net.catten.hrsys.tools.StringTools;
 
 import javax.swing.*;

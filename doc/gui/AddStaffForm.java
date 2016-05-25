@@ -27,7 +27,7 @@ public class AddStaffForm extends JInternalFrame implements ActionListener{
     private String[] deptitles;
 
     //database.SQLServerConnector sqlServerConnector = SQLServerConnector.getObject();
-    SQLProxy sqlProxy = SQLProxy.getProxy();
+    //SQLProxy sqlProxy = SQLProxy.getProxy();
 
     public AddStaffForm(String title){
         super(title, false, true, false,true);//title,resizeable,closeabel,maxminizable
