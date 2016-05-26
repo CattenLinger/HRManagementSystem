@@ -2,11 +2,14 @@ package net.catten.hrsys.data;
 
 import net.catten.hrsys.util.AttendStatus;
 
+import javax.persistence.*;
 import java.util.Date;
 
 /**
  * Created by catten on 16/3/15.
  */
+@Entity
+@Table(name = "attend_table")
 public class AttendRecord {
     private Integer id;
     private Date timePoint;
@@ -14,6 +17,8 @@ public class AttendRecord {
     private AttendStatus state;
     private String commit;
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer getId() {
         return id;
     }
@@ -30,6 +35,7 @@ public class AttendRecord {
         this.timePoint = timePoint;
     }
 
+    @ManyToOne
     public Staff getStaff() {
         return staff;
     }

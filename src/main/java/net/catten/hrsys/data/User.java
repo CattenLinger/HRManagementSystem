@@ -1,8 +1,12 @@
 package net.catten.hrsys.data;
 
+import javax.persistence.*;
+
 /**
  * Created by catten on 16/3/15.
  */
+@Entity
+@Table(name = "system_users")
 public class User {
     private Integer id;
     private String username;
@@ -10,6 +14,8 @@ public class User {
     private Staff owner;
     private String commit;
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer getId() {
         return id;
     }
@@ -34,6 +40,7 @@ public class User {
         this.password = password;
     }
 
+    @ManyToOne
     public Staff getOwner() {
         return owner;
     }

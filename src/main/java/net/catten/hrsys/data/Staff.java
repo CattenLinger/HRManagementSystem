@@ -1,20 +1,28 @@
 package net.catten.hrsys.data;
 
+import net.catten.hrsys.util.Gender;
+
+import javax.persistence.*;
+
 /**
  * Created by catten on 16/3/15.
  */
+@Entity
+@Table(name = "staff")
 public class Staff {
-    private int id;
+    private Integer id;
     private String name;
-    private String gender;
+    private Gender gender;
     private Department department;
     private String commit;
 
-    public int getId() {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -26,14 +34,15 @@ public class Staff {
         this.name = name;
     }
 
-    public String getGender() {
+    public Gender getGender() {
         return gender;
     }
 
-    public void setGender(String gender) {
+    public void setGender(Gender gender) {
         this.gender = gender;
     }
 
+    @ManyToOne
     public Department getDepartment() {
         return department;
     }

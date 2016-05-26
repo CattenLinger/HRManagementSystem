@@ -1,18 +1,24 @@
 package net.catten.hrsys.data;
 
+import javax.persistence.*;
+
 /**
  * Created by catten on 16/3/15.
  */
+@Entity
+@Table(name = "department")
 public class Department {
-    private int id;
+    private Integer id;
     private String name;
     private String commit;
 
-    public int getId() {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

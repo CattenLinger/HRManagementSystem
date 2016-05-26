@@ -58,8 +58,7 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-dbcp2</artifactId>
             <version>2.0</version>
-        </dependency>
-        -->
+        </dependency>-->
 
         <!-- Logging Face -->
         <dependency>

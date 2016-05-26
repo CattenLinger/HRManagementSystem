@@ -10,11 +10,13 @@
         <property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/HRDatabase"/>
         <property name="user" value="cocoa"/>
         <property name="password" value="25803748"/>
+        <property name="loginTimeout" value="300"/>
     </bean>
 
     <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
-        <property name="packagesToScan" value="net.catten.hrsys"/>
+        <!-- 自动扫描Hibernate的Entity，但是如果要开启二级缓存的话还是要在hibernate.cfg.xml设置 -->
+        <property name="packagesToScan" value="net.catten.hrsys.*"/>
         <property name="configLocation" value="classpath:net/catten/hrsys/hibernate.cfg.xml"/>
     </bean>
 

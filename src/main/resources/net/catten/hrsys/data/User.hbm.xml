@@ -6,7 +6,7 @@
 <hibernate-mapping package="net.catten.hrsys.data">
     <class name="User" table="system_users">
         <id name="id" type="java.lang.Integer">
-            <generator class="native"/>
+            <generator class="identity"/>
         </id>
         <property name="username"/>
         <property name="password"/>
