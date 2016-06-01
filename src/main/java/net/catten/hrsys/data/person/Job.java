@@ -11,7 +11,8 @@ import javax.persistence.*;
 @Table(name = "job")
 public class Job {
     private Integer id;
-    private Organization organization;
+    private String name;
+    private String commit;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,12 +24,19 @@ public class Job {
         this.id = id;
     }
 
-    @ManyToOne
-    public Organization getOrganization() {
-        return organization;
+    public String getName() {
+        return name;
     }
 
-    public void setOrganization(Organization orgCode) {
-        this.organization = orgCode;
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCommit() {
+        return commit;
+    }
+
+    public void setCommit(String commit) {
+        this.commit = commit;
     }
 }

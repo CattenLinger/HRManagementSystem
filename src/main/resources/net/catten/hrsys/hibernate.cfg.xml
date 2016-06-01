@@ -30,7 +30,7 @@
 
         <!-- Drop and re-create the database schema on startup -->
         <!-- When your product was online, remember set this as "update" -->
-        <property name="hbm2ddl.auto">update</property>
+        <property name="hbm2ddl.auto">create-drop</property>
 
         <!--
         <mapping resource="net/catten/hrsys/data/Department.hbm.xml"/>

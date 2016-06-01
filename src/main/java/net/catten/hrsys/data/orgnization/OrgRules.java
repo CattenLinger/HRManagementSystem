@@ -9,8 +9,8 @@ import javax.persistence.*;
 @Table(name = "org_rules")
 public class OrgRules {
     private Integer id; //id of the organization
-    private OrgType orgType; //
-    private OrgType childType; //
+    private Organization parentOrg; //
+    private Organization childOrg; //
     private Integer maxChildrenCount;
 
     @Id
@@ -24,21 +24,21 @@ public class OrgRules {
     }
 
     @ManyToOne
-    public OrgType getOrgType() {
-        return orgType;
+    public Organization getParentOrg() {
+        return parentOrg;
     }
 
-    public void setOrgType(OrgType parentOrg) {
-        this.orgType = parentOrg;
+    public void setParentOrg(Organization parentOrg) {
+        this.parentOrg = parentOrg;
     }
 
     @ManyToOne
-    public OrgType getChildType() {
-        return childType;
+    public Organization getChildOrg() {
+        return childOrg;
     }
 
-    public void setChildType(OrgType childOrg) {
-        this.childType = childOrg;
+    public void setChildOrg(Organization childOrg) {
+        this.childOrg = childOrg;
     }
 
     public Integer getMaxChildrenCount() {
