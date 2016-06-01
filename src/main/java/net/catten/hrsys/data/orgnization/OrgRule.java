@@ -7,7 +7,7 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "org_rules")
-public class OrgRules {
+public class OrgRule {
     private Integer id; //id of the organization
     private OrgType parentType; //
     private OrgType childType; //

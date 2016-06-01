@@ -1,6 +1,5 @@
-package net.catten.hrsys.data;
+package net.catten.hrsys.data.person;
 
-import net.catten.hrsys.data.orgnization.Organization;
 import org.hibernate.SessionFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import static org.junit.Assert.*;
 
 /**
- * Created by catten on 16/5/26.
+ * Created by catten on 16/6/2.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextHierarchy({
@@ -22,22 +21,18 @@ import static org.junit.Assert.*;
 })
 //测试里事务默认回滚，但是建议加上
 @Transactional
-public class OrganizationTest {
-
+public class JobTest {
     private SessionFactory sessionFactory;
 
     @Autowired
-    public void setSessionFactory(SessionFactory sessionFactory) {
+    public void setSessionFactory(SessionFactory sessionFactory){
         this.sessionFactory = sessionFactory;
     }
 
     @Test
-    public void TestInsertDepartment() {
-        Organization organization = new Organization();
-        organization.setName("Test Department");
-        organization.setCommit("For Test");
-        sessionFactory.getCurrentSession().save(organization);
-        assertNotNull(organization.getId());
+    public void TestInsertJob(){
+        Job job = new Job();
+        sessionFactory.getCurrentSession().save(job);
+        assertNotNull(job);
     }
-
 }

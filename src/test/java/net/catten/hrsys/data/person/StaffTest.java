@@ -1,4 +1,4 @@
-package net.catten.hrsys.data;
+package net.catten.hrsys.data.person;
 
 import net.catten.hrsys.data.orgnization.Organization;
 import net.catten.hrsys.data.person.Staff;
