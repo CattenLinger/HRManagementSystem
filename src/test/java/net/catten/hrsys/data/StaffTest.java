@@ -1,5 +1,7 @@
 package net.catten.hrsys.data;
 
+import net.catten.hrsys.data.orgnization.Organization;
+import net.catten.hrsys.data.person.Staff;
 import net.catten.hrsys.util.Gender;
 import org.hibernate.SessionFactory;
 import org.junit.Test;
@@ -33,13 +35,9 @@ public class StaffTest {
 
     @Test
     public void InsertStaffInfo(){
-        Department department = new Department();
-        department.setName("Test Department (inside staff)");
-        department.setCommit("For Test (inside staff)");
         Staff staff = new Staff();
         staff.setName("Test user");
         staff.setGender(Gender.female);
-        staff.setDepartment(department);
         staff.setCommit("Use for test");
         sessionFactory.getCurrentSession().save(staff);
         assertNotNull(staff.getId());

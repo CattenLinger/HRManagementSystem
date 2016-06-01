@@ -1,8 +1,7 @@
 package net.catten.hrsys.dao;
 
-import net.catten.hrsys.data.Department;
-import net.catten.hrsys.data.Staff;
-import net.catten.hrsys.data.User;
+import net.catten.hrsys.data.orgnization.Organization;
+import net.catten.hrsys.data.person.Staff;
 import net.catten.hrsys.util.Gender;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -38,32 +37,11 @@ public class IStaffDAOTest {
         for (Gender gender : Gender.values()) {
             Staff staff = new Staff();
             staff.setName("Staff" + i);
-            staff.setDepartment(null);
             staff.setGender(gender);
             staff.setCommit("Test object " + i);
             staffDAO.save(staff);
             i++;
             assertNotNull(staff.getId());
-        }
-    }
-
-    @Test
-    public void InsertStaffWithDepartment(){
-        Department department = new Department();
-        department.setName("Department S");
-        department.setCommit("Department inside staff");
-
-        int i = 0;
-        for (Gender gender : Gender.values()) {
-            Staff staff = new Staff();
-            staff.setName("Staff" + i);
-            staff.setDepartment(null);
-            staff.setGender(gender);
-            staff.setCommit("Test object " + i);
-            staff.setDepartment(department);
-            staffDAO.save(staff);
-            assertNotNull(staff.getId());
-            i++;
         }
     }
 }

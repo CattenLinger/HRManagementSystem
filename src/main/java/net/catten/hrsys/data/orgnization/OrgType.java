@@ -1,16 +1,17 @@
-package net.catten.hrsys.data;
+package net.catten.hrsys.data.orgnization;
+
+import org.hibernate.annotations.GeneratorType;
 
 import javax.persistence.*;
 
 /**
- * Created by catten on 16/3/15.
+ * Created by catten on 16/6/1.
  */
 @Entity
-@Table(name = "department")
-public class Department {
+@Table(name = "org_type")
+public class OrgType {
     private Integer id;
     private String name;
-    private String commit;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -28,13 +29,5 @@ public class Department {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getCommit() {
-        return commit;
-    }
-
-    public void setCommit(String commit) {
-        this.commit = commit;
     }
 }

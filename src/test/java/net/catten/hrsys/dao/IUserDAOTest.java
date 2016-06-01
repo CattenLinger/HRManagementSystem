@@ -1,6 +1,6 @@
 package net.catten.hrsys.dao;
 
-import net.catten.hrsys.data.Staff;
+import net.catten.hrsys.data.person.Staff;
 import net.catten.hrsys.data.User;
 import net.catten.hrsys.util.Gender;
 import org.junit.Test;
@@ -44,8 +44,6 @@ public class IUserDAOTest {
         staff.setName("Inside User");
         staff.setGender(Gender.both);
         staff.setCommit("Inside User");
-        staff.setDepartment(null);
-
         User user = new User();
         user.setUsername("daoUserTestWithStaff");
         user.setPassword("000000");

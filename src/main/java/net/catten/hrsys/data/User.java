@@ -1,5 +1,7 @@
 package net.catten.hrsys.data;
 
+import net.catten.hrsys.data.person.Staff;
+
 import javax.persistence.*;
 
 /**

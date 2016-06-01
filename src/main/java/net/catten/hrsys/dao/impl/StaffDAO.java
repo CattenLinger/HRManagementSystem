@@ -1,7 +1,7 @@
 package net.catten.hrsys.dao.impl;
 
 import net.catten.hrsys.dao.IStaffDAO;
-import net.catten.hrsys.data.Staff;
+import net.catten.hrsys.data.person.Staff;
 import org.springframework.stereotype.Repository;
 
 /**
