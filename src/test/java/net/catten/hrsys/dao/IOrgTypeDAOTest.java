@@ -5,10 +5,13 @@ import org.hibernate.SessionFactory;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.support.PropertyComparator;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.ContextHierarchy;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.*;
 
 import static org.junit.Assert.*;
 
@@ -26,14 +29,38 @@ public class IOrgTypeDAOTest {
     private IOrgTypeDAO orgTypeDAO;
 
     @Autowired
-    public void setOrgTypeDAO(IOrgTypeDAO orgTypeDAO){
+    public void setOrgTypeDAO(IOrgTypeDAO orgTypeDAO) {
         this.orgTypeDAO = orgTypeDAO;
     }
 
     @Test
-    public void TestInsertOrgTypeDAO(){
+    public void TestInsertOrgTypeDAO() {
         OrgType orgType = new OrgType();
         orgTypeDAO.save(orgType);
         assertNotNull(orgType.getId());
+    }
+
+    @Test
+    public void TestListAllOrgType() {
+        String[] names = new String[]{
+                "UNIVERSITY", "BRANCH", "COLLEGE", "DEPARTMENT", "SPECIFICS", "CLASS"
+        };
+
+        for (String name : names) {
+            OrgType orgType = new OrgType();
+            orgType.setName(name);
+            orgTypeDAO.save(orgType);
+        }
+
+        List<OrgType> orgTypeList = orgTypeDAO.listAll();
+        Map<String, OrgType> stringOrgTypeMap = new HashMap<>();
+        for (OrgType orgType : orgTypeList) {
+            stringOrgTypeMap.put(orgType.getName(), orgType);
+        }
+        for (String name : names) {
+            assertNotNull(stringOrgTypeMap.get(name));
+        }
+        assertEquals(names.length, orgTypeList.size());
+
     }
 }
