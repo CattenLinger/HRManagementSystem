@@ -1,5 +1,7 @@
 package net.catten.hrsys.data.orgnization;
 
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 import org.hibernate.annotations.GeneratorType;
 
 import javax.persistence.*;
@@ -11,7 +13,11 @@ import javax.persistence.*;
 @Table(name = "org_type")
 public class OrgType {
     private Integer id;
-    private String name;
+    private final StringProperty name;
+
+    public OrgType(){
+        name = new SimpleStringProperty();
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,10 +30,15 @@ public class OrgType {
     }
 
     public String getName() {
-        return name;
+        return name.get();
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.name.set(name);
+    }
+
+    @Transient
+    public StringProperty nameProperty() {
+        return name;
     }
 }

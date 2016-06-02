@@ -1,5 +1,10 @@
 package net.catten.hrsys.data.orgnization;
 
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleIntegerProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
+
 import javax.persistence.*;
 
 /**
@@ -9,10 +14,15 @@ import javax.persistence.*;
 @Table(name = "organization")
 public class Organization {
     private Integer id; //Id of the organization
-    private String name; //Name of the organization
-    private Organization parentOrg; //The partent organization
+    private final StringProperty name; //Name of the organization
+    private Organization parentOrg; //The parent organization
     private OrgType orgType; //What type the org is.
-    private String commit;
+    private final StringProperty commit;
+
+    public Organization(){
+        name = new SimpleStringProperty();
+        commit = new SimpleStringProperty();
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,19 +35,19 @@ public class Organization {
     }
 
     public String getName() {
-        return name;
+        return name.get();
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.name.set(name);
     }
 
     public String getCommit() {
-        return commit;
+        return commit.get();
     }
 
     public void setCommit(String commit) {
-        this.commit = commit;
+        this.commit.setValue(commit);
     }
 
     @ManyToOne
@@ -56,5 +66,15 @@ public class Organization {
 
     public void setParentOrg(Organization parentOrg) {
         this.parentOrg = parentOrg;
+    }
+
+    @Transient
+    public StringProperty nameProperty() {
+        return name;
+    }
+
+    @Transient
+    public StringProperty commitProperty() {
+        return commit;
     }
 }

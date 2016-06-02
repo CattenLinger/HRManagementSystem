@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<SplitPane dividerPositions="0.35778443113772457" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <items>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <bottom>
+            <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+              <items>
+                <Button mnemonicParsing="false" text="Add" />
+                  <Button mnemonicParsing="false" text="Delete" />
+                  <Separator orientation="VERTICAL" />
+                  <Button mnemonicParsing="false" text="Refresh" />
+              </items>
+            </ToolBar>
+         </bottom>
+         <center>
+            <ListView prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+      <AnchorPane prefHeight="485.0" prefWidth="534.0">
+         <children>
+            <HBox layoutX="14.0" layoutY="312.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0">
+               <children>
+                  <Button layoutX="14.0" layoutY="312.0" mnemonicParsing="false" text="Add...">
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button layoutX="69.0" layoutY="312.0" mnemonicParsing="false" text="Remove">
+                     <HBox.margin>
+                        <Insets right="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <Button layoutX="363.0" layoutY="312.0" mnemonicParsing="false" text="Save" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0" />
+            <GridPane layoutX="14.0" layoutY="14.0" prefHeight="290.0" prefWidth="396.0" AnchorPane.bottomAnchor="49.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="195.0" minWidth="10.0" prefWidth="160.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="247.0" minWidth="10.0" prefWidth="237.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Child Organization Type" GridPane.columnSpan="2" GridPane.rowIndex="1">
+                     <padding>
+                        <Insets bottom="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <TextField prefHeight="27.0" prefWidth="215.0" GridPane.columnIndex="1" />
+                  <Label text="Orginization Type Name">
+                     <padding>
+                        <Insets bottom="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <ListView prefHeight="30.0" prefWidth="185.0" GridPane.columnSpan="2" GridPane.rowIndex="2" />
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </items>
+</SplitPane>

@@ -1,5 +1,7 @@
 package net.catten.hrsys.data.person;
 
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 import net.catten.hrsys.util.Gender;
 
 import javax.persistence.*;
@@ -13,10 +15,16 @@ import java.util.List;
 @Table(name = "staff")
 public class Staff {
     private Integer id;
-    private String name;
+    private final StringProperty name;
     private Gender gender;
-    private String contactInfo;
-    private String commit;
+    private final StringProperty contactInfo;
+    private final StringProperty commit;
+
+    public Staff() {
+        name = new SimpleStringProperty();
+        contactInfo = new SimpleStringProperty();
+        commit = new SimpleStringProperty();
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -29,11 +37,11 @@ public class Staff {
     }
 
     public String getName() {
-        return name;
+        return name.get();
     }
 
     public void setName(String name) {
-        this.name = name;
+        this.name.set(name);
     }
 
     public Gender getGender() {
@@ -45,18 +53,33 @@ public class Staff {
     }
 
     public String getCommit() {
-        return commit;
+        return commit.get();
     }
 
     public void setCommit(String commit) {
-        this.commit = commit;
+        this.commit.setValue(commit);
     }
 
     public String getContactInfo() {
-        return contactInfo;
+        return contactInfo.get();
     }
 
     public void setContactInfo(String contactInfo) {
-        this.contactInfo = contactInfo;
+        this.contactInfo.get();
+    }
+
+    @Transient
+    public StringProperty nameProperty() {
+        return name;
+    }
+
+    @Transient
+    public StringProperty contactInfoProperty() {
+        return contactInfo;
+    }
+
+    @Transient
+    public StringProperty commitProperty() {
+        return commit;
     }
 }

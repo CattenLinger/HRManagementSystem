@@ -1,5 +1,9 @@
 package net.catten.hrsys.data.person;
 
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
+import net.catten.hrsys.data.orgnization.Organization;
+
 import javax.persistence.*;
 
 /**
@@ -11,6 +15,12 @@ public class StaffJob {
     private Integer id;
     private Staff staff;
     private Job job;
+    private Organization organization;
+    private StringProperty commit;
+
+    public StaffJob(){
+        commit = new SimpleStringProperty();
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -38,5 +48,27 @@ public class StaffJob {
 
     public void setJob(Job job) {
         this.job = job;
+    }
+
+    @ManyToOne
+    public Organization getOrganization() {
+        return organization;
+    }
+
+    public void setOrganization(Organization organization) {
+        this.organization = organization;
+    }
+
+    public String getCommit() {
+        return commit.get();
+    }
+
+    public void setCommit(String commit) {
+        this.commit.set(commit);
+    }
+
+    @Transient
+    public StringProperty commitProperty() {
+        return commit;
     }
 }

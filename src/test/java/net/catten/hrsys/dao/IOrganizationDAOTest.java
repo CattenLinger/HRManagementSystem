@@ -4,6 +4,9 @@ import net.catten.hrsys.data.orgnization.Organization;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.ContextHierarchy;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -36,4 +39,20 @@ public class IOrganizationDAOTest {
         organizationDAO.save(organization);
         assertNotNull(organization.getId());
     }
+
+    @Test
+    public void PagingOrganizationTest(){
+        int dataAmount = 100;
+        for(int i = 0; i < dataAmount; i++){
+            Organization org = new Organization();
+            org.setName("Org " + dataAmount);
+            organizationDAO.save(org);
+        }
+
+        Pageable pageable = new PageRequest(1,5);
+        Page<Organization> page = organizationDAO.findAll(pageable);
+        assertEquals(dataAmount,page.getTotalElements());
+        assertEquals((dataAmount / 5),page.getTotalPages());
+    }
+
 }

@@ -6,6 +6,8 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.ContextHierarchy;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -80,7 +82,7 @@ public class IOrgRuleDAOTest {
             ruleDAO.save(rule);
         }
 
-        List<OrgRule> newOrgRuleList = ruleDAO.listAll();
-        assertFalse(newOrgRuleList.size() < 1);
+        List<OrgRule> newOrgRuleList = (List<OrgRule>) ruleDAO.findAll();
+        assertFalse(newOrgRuleList.size() != orgRuleList.size());
     }
 }

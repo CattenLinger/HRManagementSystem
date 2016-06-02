@@ -1,5 +1,7 @@
 package net.catten.hrsys.data;
 
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 import net.catten.hrsys.data.person.Staff;
 
 import javax.persistence.*;
@@ -11,10 +13,16 @@ import javax.persistence.*;
 @Table(name = "system_users")
 public class User {
     private Integer id;
-    private String username;
-    private String password;
+    private final StringProperty username;
+    private final StringProperty password;
     private Staff owner;
-    private String commit;
+    private final StringProperty commit;
+
+    public User() {
+        username = new SimpleStringProperty();
+        password = new SimpleStringProperty();
+        commit = new SimpleStringProperty();
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -27,19 +35,19 @@ public class User {
     }
 
     public String getUsername() {
-        return username;
+        return username.get();
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        this.username.setValue(username);
     }
 
     public String getPassword() {
-        return password;
+        return password.get();
     }
 
     public void setPassword(String password) {
-        this.password = password;
+        this.password.setValue(password);
     }
 
     @ManyToOne
@@ -52,10 +60,10 @@ public class User {
     }
 
     public String getCommit() {
-        return commit;
+        return commit.get();
     }
 
     public void setCommit(String commit) {
-        this.commit = commit;
+        this.commit.setValue(commit);
     }
 }

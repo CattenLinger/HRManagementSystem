@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<SplitPane dividerPositions="0.3896321070234114" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="332.0" prefWidth="667.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <items>
+      <BorderPane prefHeight="330.0" prefWidth="275.0">
+         <bottom>
+            <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <items>
+                  <Button mnemonicParsing="false" text="Add..." />
+                  <Button mnemonicParsing="false" text="Delete" />
+                  <Separator orientation="VERTICAL" />
+                  <Button mnemonicParsing="false" text="Refresh" />
+               </items>
+            </ToolBar>
+         </bottom>
+         <top>
+            <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <items>
+                  <MenuButton mnemonicParsing="false" text="Search By...">
+                    <items>
+                      <MenuItem mnemonicParsing="false" text="Organization" />
+                      <MenuItem mnemonicParsing="false" text="Staff" />
+                        <MenuItem mnemonicParsing="false" text="Job / Position" />
+                    </items>
+                  </MenuButton>
+               </items>
+            </ToolBar>
+         </top>
+      </BorderPane>
+      <AnchorPane prefHeight="330.0" prefWidth="379.0">
+         <children>
+            <GridPane layoutX="14.0" layoutY="14.0" prefHeight="262.0" prefWidth="267.0" AnchorPane.bottomAnchor="54.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+               <children>
+                  <Label text="Staff Name" GridPane.halignment="RIGHT">
+                     <padding>
+                        <Insets bottom="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <ChoiceBox prefHeight="27.0" prefWidth="132.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </ChoiceBox>
+                  <Label text="Organization" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                     <padding>
+                        <Insets bottom="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label text="Job / Position" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+                     <padding>
+                        <Insets bottom="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <Label text="Description" GridPane.halignment="RIGHT" GridPane.rowIndex="3" GridPane.valignment="TOP">
+                     <padding>
+                        <Insets bottom="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </Label>
+                  <TextArea prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </TextArea>
+                  <Label text="Label" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </GridPane.margin>
+                  </Label>
+                  <ChoiceBox prefHeight="27.0" prefWidth="132.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                     </GridPane.margin>
+                  </ChoiceBox>
+               </children>
+               <columnConstraints>
+                  <ColumnConstraints maxWidth="166.0" minWidth="10.0" prefWidth="101.0" />
+                  <ColumnConstraints hgrow="ALWAYS" maxWidth="1.7976931348623157E308" minWidth="10.0" prefWidth="273.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="NEVER" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+            </GridPane>
+            <HBox layoutX="229.0" layoutY="357.0" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="14.0">
+               <children>
+                  <Button layoutX="229.0" layoutY="357.0" mnemonicParsing="false" text="Save">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button layoutX="284.0" layoutY="357.0" mnemonicParsing="false" text="Reset">
+                     <HBox.margin>
+                        <Insets left="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </items>
+</SplitPane>

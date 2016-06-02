@@ -52,7 +52,7 @@ public class IOrgTypeDAOTest {
             orgTypeDAO.save(orgType);
         }
 
-        List<OrgType> orgTypeList = orgTypeDAO.listAll();
+        List<OrgType> orgTypeList = (List<OrgType>) orgTypeDAO.findAll();
         Map<String, OrgType> stringOrgTypeMap = new HashMap<>();
         for (OrgType orgType : orgTypeList) {
             stringOrgTypeMap.put(orgType.getName(), orgType);

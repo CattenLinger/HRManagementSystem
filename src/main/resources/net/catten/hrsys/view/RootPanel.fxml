@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Organization">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Organizations" />
+                  <MenuItem mnemonicParsing="false" text="Organization Typies" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Staff &amp; Job">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Saff" />
+                  <MenuItem mnemonicParsing="false" text="Job / Position" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Users">
+            <items>
+              <MenuItem mnemonicParsing="false" text="User" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Account">
+              <items>
+                  <MenuItem mnemonicParsing="false" text="Change Password" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                <MenuItem mnemonicParsing="false" text="Logout" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

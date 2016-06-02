@@ -1,5 +1,8 @@
 package net.catten.hrsys.data.orgnization;
 
+import javafx.beans.property.IntegerProperty;
+import javafx.beans.property.SimpleIntegerProperty;
+
 import javax.persistence.*;
 
 /**
@@ -11,7 +14,11 @@ public class OrgRule {
     private Integer id; //id of the organization
     private OrgType parentType; //
     private OrgType childType; //
-    private Integer maxChildrenCount;
+    private final IntegerProperty maxChildrenCount;
+
+    public OrgRule(){
+        maxChildrenCount = new SimpleIntegerProperty();
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -42,10 +49,15 @@ public class OrgRule {
     }
 
     public Integer getMaxChildrenCount() {
-        return maxChildrenCount;
+        return maxChildrenCount.getValue();
     }
 
     public void setMaxChildrenCount(Integer maxChildrenCount) {
-        this.maxChildrenCount = maxChildrenCount;
+        this.maxChildrenCount.set(maxChildrenCount);
+    }
+
+    @Transient
+    public IntegerProperty maxChildrenCountProperty() {
+        return maxChildrenCount;
     }
 }
